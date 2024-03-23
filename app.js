@@ -21,7 +21,7 @@ app.put("/put",(req, res)=> {
 })
 
 app.post("/post",(req, res)=> {
-    console.log("PUT request successful");
+    console.log("POST request successful");
     console.log(req.body);
     res.send("Data post Request Recueved");
 })
